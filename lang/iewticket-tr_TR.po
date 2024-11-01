@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IEW Ticket\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-22 15:16+0200\n"
+"PO-Revision-Date: 2011-12-22 15:17+0200\n"
+"Last-Translator: Semih Aksu <ben@semihaksu.com>\n"
+"Language-Team: if.else.web <info@ifelseweb.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../iew-ticket-admin.php:8
+msgid "Tickets"
+msgstr "Talepler"
+
+#: ../iew-ticket-admin.php:56
+#: ../iew-ticket-user.php:45
+msgid "All Tickets"
+msgstr "Tüm Talepler"
+
+#: ../iew-ticket-admin.php:60
+#: ../iew-ticket-user.php:50
+msgid "Subject"
+msgstr "Konu"
+
+#: ../iew-ticket-admin.php:61
+msgid "User"
+msgstr "Üye"
+
+#: ../iew-ticket-admin.php:62
+#: ../iew-ticket-user.php:52
+msgid "Last Update"
+msgstr "Son Güncelleme"
+
+#: ../iew-ticket-admin.php:63
+#: ../iew-ticket-user.php:53
+msgid "Status"
+msgstr "Durum"
+
+#: ../iew-ticket-admin.php:64
+#: ../iew-ticket-user.php:54
+msgid "Actions"
+msgstr "Eylemler"
+
+#: ../iew-ticket-admin.php:89
+#: ../iew-ticket-user.php:79
+#, php-format
+msgid "%1$d records showing in %2$d of %3$d"
+msgstr "%2$d / %3$d içinden %1$d gösteriliyor"
+
+#: ../iew-ticket-admin.php:102
+#: ../iew-ticket-user.php:92
+msgid "Waiting for reply"
+msgstr "Yanıt için bekleniyor"
+
+#: ../iew-ticket-admin.php:105
+#: ../iew-ticket-user.php:94
+msgid "Response from site manager"
+msgstr "Site Yöneticisi Cevabı"
+
+#: ../iew-ticket-admin.php:107
+#: ../iew-ticket-user.php:97
+msgid "Response from user"
+msgstr "Üye Cevabı"
+
+#: ../iew-ticket-admin.php:110
+#: ../iew-ticket-user.php:99
+msgid "Marked as solved by manager"
+msgstr "Yönetici tarafından çözüldü olarak işaretlendi"
+
+#: ../iew-ticket-admin.php:112
+#: ../iew-ticket-user.php:101
+msgid "Marked as solved by user"
+msgstr "Üye tarafından çözüldü olarak işaretlendi"
+
+#: ../iew-ticket-admin.php:114
+#: ../iew-ticket-user.php:103
+msgid "Permanently closed."
+msgstr "Kalıcı olarak kapatıldı."
+
+#: ../iew-ticket-admin.php:125
+#: ../iew-ticket-user.php:113
+msgid "Reply the ticket"
+msgstr "Soruna yanıt ver"
+
+#: ../iew-ticket-admin.php:126
+#: ../iew-ticket-user.php:114
+msgid "Mark as solved"
+msgstr "Çözüldü olarak işaretle"
+
+#: ../iew-ticket-admin.php:127
+msgid "Permanently delete this ticket"
+msgstr "Bu isteği kalıcı olarak sil"
+
+#: ../iew-ticket-admin.php:161
+#: ../iew-ticket-user.php:149
+msgid "Write your reply here..."
+msgstr "Cevabınızı buraya yazın..."
+
+#: ../iew-ticket-admin.php:162
+#: ../iew-ticket-user.php:150
+msgid "Reply"
+msgstr "Yanıtla"
+
+#: ../iew-ticket-admin.php:188
+#: ../iew-ticket-user.php:176
+msgid "ERROR: Access denied."
+msgstr "HATA: Erişim reddedildi."
+
+#: ../iew-ticket-admin.php:191
+#: ../iew-ticket-user.php:179
+msgid "ERROR: Something missing. Please try again later."
+msgstr "HATA: Birşey eksik. Lütfen tekrar deneyiniz."
+
+#: ../iew-ticket-admin.php:236
+#, php-format
+msgid "Tickets %s"
+msgstr "Talepler %s"
+
+#: ../iew-ticket-user.php:8
+msgid "Online Support"
+msgstr "Canlı Destek"
+
+#: ../iew-ticket-user.php:8
+msgid "Support"
+msgstr "Yardım"
+
+#: ../iew-ticket-user.php:10
+#: ../iew-ticket-user.php:208
+msgid "New Ticket"
+msgstr "Yeni Talep"
+
+#: ../iew-ticket-user.php:51
+msgid "Opening Date"
+msgstr "Oluşturma Tarihi"
+
+#: ../iew-ticket-user.php:215
+msgid "Subject:"
+msgstr "Konu:"
+
+#: ../iew-ticket-user.php:219
+msgid "Question:"
+msgstr "Sorun:"
+
+#: ../iew-ticket-user.php:221
+msgid "Please describe your problem clearly."
+msgstr "Lütfen sorununuzu açık bir şekilde ifade ediniz."
+
+#: ../iew-ticket-user.php:226
+msgid "(*) Required field - You have to fill it."
+msgstr "(*) Zorunlu alan - Bu alanları doldurmalısınız."
+
+#: ../iew-ticket-user.php:229
+msgid "Create Ticket"
+msgstr "Sorunu Bildir"
+
+#: ../iew-ticket-user.php:245
+msgid "Your ticket has been created."
+msgstr "Sorun bildirimi oluşturuldu."
+
+#: ../iew-ticket-user.php:249
+msgid "Ooops, It seems that you didnt fill all form fields."
+msgstr "Ooops, tüm alanları doldurmamışsınız."
+
+#: ../iew-ticket-user.php:263
+msgid "You are not allowed to access this part of the site"
+msgstr "Sitenin bu kısmına erişme izniniz yok."
+
+#: ../iew-ticket-user.php:272
+#, php-format
+msgid "Support %s"
+msgstr "Yardım %s"
+

@@ -1,0 +1,114 @@
+.wrap h2{
+	text-transform:capitalize;
+	border-bottom:1px dashed #ccc;
+	margin-bottom:20px;
+}
+
+.messagebox{
+	position:relative;
+}
+
+.user-answer {
+	width: 520px;
+}
+
+.user-answer .answer{
+	width: 500px;
+	padding: 10px;
+	padding-top:18px;
+	padding-bottom:10px;
+	background: #fafafa;
+	color: #333;
+	font: normal 12px "Segoe UI", Arial, Sans-serif;
+	border:3px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.user-answer .answer:after
+{
+	content: "";
+	border: solid 10px transparent; /* set all borders to 10 pixels width */
+	border-top-color: #ccc; /* the callout */
+	border-bottom: 0; /* we do not need the bottom border in this case */
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	bottom: -20px; /* border-width of the :after element + padding of the root element */
+	margin: auto 10px;
+}
+
+.user-answer .meta{
+	font-family:Trebuchet MS;
+}
+
+.master-answer {
+	width: 520px;
+	float:right;
+}
+
+.master-answer .answer{
+	width: 500px;
+	padding: 10px;
+	padding-top:18px;
+	padding-bottom:10px;
+	background: #fafafa;
+	color: #333;
+	font: normal 12px "Segoe UI", Arial, Sans-serif;
+	border:3px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.master-answer .answer:after
+{
+	content: "";
+	border: solid 10px transparent; /* set all borders to 10 pixels width */
+	border-top-color: #ccc; /* the callout */
+	border-bottom: 0; /* we do not need the bottom border in this case */
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	bottom: -20px; /* border-width of the :after element + padding of the root element */
+	margin: auto 10px;
+}
+
+.master-answer .meta{
+	font-family:Trebuchet MS;
+}
+
+.author, .datetime{
+	display:inline-block;
+	color:#c30;
+}
+
+.datetime{
+	float:right;
+	font-size:10px;
+	border-bottom:1px dotted #c30;
+}
+
+.cl{
+	clear:both;
+	height:1px;
+	border-top:1px dotted #ccc;
+	margin-bottom:10px;
+}
+
+.replybox{
+	width:500px;
+	padding:8px;
+	font-size:11px;
+	color:#444;
+	border-color:#bbb!important;
+}
+
+tr.iew-new td{
+	font-weight:bold!important;
+	color:#c30;
+}
